@@ -28,13 +28,13 @@ for (var i = 0; i < array.length - 2; i++) {
 // Function 
 
 // syntax 
-function kuchbhi() {
-    console.log("Hello from inside function.")
-}
-kuchbhi();
-kuchbhi();
-kuchbhi();
-kuchbhi();
+// function kuchbhi() {
+//     console.log("Hello from inside function.")
+// }
+// kuchbhi();
+// kuchbhi();
+// kuchbhi();
+// kuchbhi();
 
 
 
@@ -42,18 +42,18 @@ kuchbhi();
 // console.log(kuchbhi2)
 
 
-function Even() {
-    console.log("Number is even.")
-}
+// function Even() {
+//     console.log("Number is even.")
+// }
 
-function Odd() {
-    console.log("Number is odd.")
-}
+// function Odd() {
+//     console.log("Number is odd.")
+// }
 
-var number = 87654;
+// var number = 87654;
 
-if(number % 2 == 0){
-    Even()
-} else {
-    Odd()
-}
+// if(number % 2 == 0){
+//     Even()
+// } else {
+//     Odd()
+// }
