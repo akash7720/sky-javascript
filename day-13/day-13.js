@@ -1,5 +1,6 @@
 var myName = "Swaraj";
 console.log(myName)
+
 myName = "Virat"
 console.log(myName)
 
@@ -9,80 +10,80 @@ console.log(myName)
 
 
 
-Re-assigning
-let myName = "Swaraj";
-myName = "virat"
-console.log(myName)'
+// Re-assigning
+// let myName = "Swaraj";
+// myName = "virat"
+// console.log(myName)
 
-var myName = "s";
-var myName = "v"
+// var myName = "s";
+// var myName = "v"
 
-let myAge = 20;
-myAge = 21;
-console.log(myAge)
-let myAge = 21;
+// let myAge = 20;
+// myAge = 21;
+// console.log(myAge)
+// let myAge = 21;
 
-const myage = 20;
-myage = 21;
-console.log(myage)
-
-
-const myage = 20;
-const myage = 21;
+// const myage = 20;
+// myage = 21;
+// console.log(myage)
 
 
-            re-assign          re-declare
-var            yes                yes
-
-let            yes                 no
-
-const          no                  no
+// const myage = 20;
+// const myage = 21;
 
 
-Hoisting  - only for var varibles and traditional functions
+//             re-assign          re-declare
+// var            yes                yes
 
-myAge = 20;
-console.log(myAge);
-var myAge;
+// let            yes                 no
 
-myage = 20;
-console.log(myage)
-let myage;
+// const          no                  no
 
 
+// Hoisting  - only for var varibles and traditional functions
 
-myAge()
-function myAge() {
-    console.log(20)
-}
+// myAge = 20;
+// console.log(myAge);
+// var myAge;
 
-const myAge = () => {
-    console.log(20)
-}
-
-const myAge = () => console.log(20)
-
-myAge()
-
-const addition = a => console.log(a + a)
-
-addition(2)
+// myage = 20;
+// console.log(myage)
+// let myage;
 
 
-async 
-await 
 
-travel -
-mumbai - lunch time  - pune - syn
+// myAge()
+// function myAge() {
+//     console.log(20)
+// }
 
-multiple line code 
+// const myAge = () => {
+//     console.log(20)
+// }
 
-1 code - doneb 1
-2 code - time consuming  - pending - done 3
-3 code - done 2
+// const myAge = () => console.log(20)
 
-async function(){
-code  - done 1
-await code time consuming - done 2
-await code  - done 3
-}
+// myAge()
+
+// const addition = a => console.log(a + a)
+
+// addition(2)
+
+
+// async 
+// await 
+
+// travel -
+// mumbai - lunch time  - pune - syn
+
+// multiple line code 
+
+// 1 code - doneb 1
+// 2 code - time consuming  - pending - done 3
+// 3 code - done 2
+
+// async function(){
+// code  - done 1
+// await code time consuming - done 2
+// await code  - done 3
+// }

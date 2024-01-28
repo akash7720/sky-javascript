@@ -1,8 +1,8 @@
-Pre defined functions for array 
+// Pre defined functions for array 
 
-push pop shift unshift
+// push pop shift unshift
 
-map 
+// map 
 
 var array = [1, 2, 3, 4]
 
@@ -20,7 +20,7 @@ array.forEach((number) => console.log(number * 2))
 
 
 
-reduce 
+// reduce 
 
 const array1 = [1, 2, 3, 4];
 
@@ -34,7 +34,7 @@ const sumWithInitial = array1.reduce(
 console.log(sumWithInitial);
 
 
-filter 
+// filter 
 
 var list = ["abc", "awdiz", "rahul", "hi everyone", "welcome"];
 
@@ -44,10 +44,10 @@ console.log(result,"result")
 
 
 
-map     -> returned array of values
-foreach => seperate values
-reduce  => single value
-filter  -> array of values but filtere
+// map     -> returned array of values
+// foreach => seperate values
+// reduce  => single value
+// filter  -> array of values but filtere
 
 
 setTimeout(() => {

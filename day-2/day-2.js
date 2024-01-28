@@ -68,11 +68,11 @@
 // Comparison Operator  
 //  == , === 
 
-console.log(2 == 2)
-console.log("2" == 2) //  check only data
-console.log("2" === 2) // check data and datatypes
-console.log("40" == 40  )
-console.log("400" === 400)
+// console.log(2 == 2)
+// console.log("2" == 2) //  check only data
+// console.log("2" === 2) // check data and datatypes
+// console.log("40" == 40  )
+// console.log("400" === 400)
 
 
 // logical operator 
@@ -84,16 +84,21 @@ console.log("400" === 400)
 
 // conditions are fales then it all return fales 
 
-var userage = 124;
+// var userage = 124;
 
-console.log(userage > 91 && userage ==24 && userage < 25)
-console.log(userage < 19 || userage < 90 || userage < 124)
+// console.log(userage > 91 && userage ==24 && userage < 25)
+// console.log(userage < 19 || userage < 90 || userage < 124)
 
 
-// console.log()
+// // console.log()
 
-console.log( 2 > 1)
-console.log(4 < 2)
+// console.log( 2 > 1)
+// console.log(4 < 2)
 
-console.log( 6 >= 6)
-console.log(10 <= 8 )
+// console.log( 6 >= 6)
+// console.log(10 <= 8 )
+
+
+// console.log(123 % 2)
+
+// console.log(123 % 5)

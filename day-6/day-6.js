@@ -1,73 +1,73 @@
 //find number from give range which are odd, include the range
 // 23-45
 
-for(var i =23; i<=45; i++){
-    if(i % 2 !=0)      
-    console.log(i)         //23,25,27,29,31,33,35,37,39,41 43,45
-}
+// for(var i =23; i<=45; i++){
+//     if(i % 2 !=0)      
+//     console.log(i)         //23,25,27,29,31,33,35,37,39,41 43,45
+// }
 
 
-var count = 0;
-for (var i = 23; i <= 45; i++) {
-    if (i % 2 != 0) {
-        count++;
-        // console.log(count, "count", i ,"I")
-    }
-}
-console.log(count)
+// var count = 0;
+// for (var i = 23; i <= 45; i++) {
+//     if (i % 2 != 0) {
+//         count++;
+//         // console.log(count, "count", i ,"I")
+//     }
+// }
+// console.log(count)
 
-var oddCount = 0;
-var evenCount = 0;
-for (var i = 23; i <= 45; i++) {
-    if (i % 2 != 0) {
-        oddCount++;
-        // console.log(count, "count", i ,"I")
-    } else {
-        evenCount++;
-    }
-}
-console.log(oddCount, "odd count")
-console.log(evenCount, "even count")
+// var oddCount = 0;
+// var evenCount = 0;
+// for (var i = 23; i <= 45; i++) {
+//     if (i % 2 != 0) {
+//         oddCount++;
+//         // console.log(count, "count", i ,"I")
+//     } else {
+//         evenCount++;
+//     }
+// }
+// console.log(oddCount, "odd count")
+// console.log(evenCount, "even count")
 
-var oddNumbers = [];
-for (var i = 23; i <= 45; i++) {
-    if (i % 2 != 0) {
-        oddNumbers.push(i)
-    }
-}
+// var oddNumbers = [];
+// for (var i = 23; i <= 45; i++) {
+//     if (i % 2 != 0) {
+//         oddNumbers.push(i)
+//     }
+// }
 
-console.log(oddNumbers, 'list')
-
-
-var numbers = [1, 3, 4, 5, 6, 87, 9];
-
-var evenArray = [];
-
-for (var i = 0; i < numbers.length; i++) {
-    if (numbers[i] % 2 == 0) {
-        evenArray.push(numbers[i])
-    }
-}
-
-console.log(evenArray)
+// console.log(oddNumbers, 'list')
 
 
-var array = [1, 2, 4, 5, 6, 7, 8, 23, 43, 65, 76, 24, 12, 34];
+// var numbers = [1, 3, 4, 5, 6, 87, 9];
 
-var target = 35;
+// var evenArray = [];
 
-var flag = false;
+// for (var i = 0; i < numbers.length; i++) {
+//     if (numbers[i] % 2 == 0) {
+//         evenArray.push(numbers[i])
+//     }
+// }
 
-for (var i = 0; i < array.length; i++) {
-    if (array[i] == target) {
-        console.log("Found it")
-        flag = true;
-    }
-}
+// console.log(evenArray)
 
-if (flag == false) {
-    console.log("Not found.")
-}
+
+// var array = [1, 2, 4, 5, 6, 7, 8, 23, 43, 65, 76, 24, 12, 34];
+
+// var target = 35;
+
+// var flag = false;
+
+// for (var i = 0; i < array.length; i++) {
+//     if (array[i] == target) {
+//         console.log("Found it")
+//         flag = true;
+//     }
+// }
+
+// if (flag == false) {
+//     console.log("Not found.")
+// }
 
 // Q Find out which two numbers from array have addition of target 
 
